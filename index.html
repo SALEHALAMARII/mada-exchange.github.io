@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="صرافة مدى">
+        <title>مدى للصرافة والتحويلات</title>
+        <!-- design css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- مكتبة خطوط -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Load the Cairo and Noto Kufi Arabic Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+        <!-- bootsrap -->
+        <link rel="shortcut icon" href="images/logo-only.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="image">
+                <img src="images/logo.png" alt="logo" id="logo">
+            </div>
+            <nav class="links">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#about-header">من نحن</a></li>
+                <li><a href="#service-id">خدماتنا</a></li>
+                <li><a href="#app-header">تطبيقنا</a></li>
+                <li><a href="#call-us">اتصل بنا</a></li>
+            </nav>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/مدى 0.png" alt="image-1" style="width: 100%;">
+                <div class="numbertext">1 / 4</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/مدى 1.png" alt="image-2" style="width: 100%;">
+                <div class="numbertext">2 / 4</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/مدى 3.png" alt="image-3" style="width: 100%;">
+                <div class="numbertext">3 / 4</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="images/مدى 2.png" alt="image-4" style="width: 100%;">
+                <div class="numbertext">4 / 4</div>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+        <div class="about">
+            <h1 id="about-header">من نحن</h1>
+            <div class="about-container">
+                <p id="about-paragraph">
+                    مؤسسـة مدى وجهتكم الموثوقة في بيع وشراء العـملات وتقديم خدمـات التحـويلات المالية
+                    المحلية والدولية بأعلى مستوى من الاحترافية والسـرعة, نتميز بتقديم افضل أسعـار الصرف وخدمة عمـــــــــلاء استثنـائية لضمـان رضـا عملائنا, 
+                    رؤيتنا هي أن نكون الخيار الأول لتلبية جميع احتياجاتكم المالية,
+                    من التركيز على الأمان, المصداقية وسهــولة العمليات, نعمل على بناء علاقات طويلة الأمد مع عملائنــــا
+                     من خلال تقديم حلول مالية مبتكرة تلبي تطلعاتهم بكفاءة وجودة.
+                </p>
+                <img src="images/logo-only.png" alt="" id="image-about">
+            </div>
+        </div>
+        <div class="our-services" id="service-id">
+            <h1 id="about-header">خدماتنا</h1>
+            <div class="all-services">
+                <div class="service1">
+                    <img src="images/227.jpg" alt="" id="img-serv">
+                    <p id="para-service">خدمة بيع وشراء جميع العملات الأجنبية بما في ذلك الدولار الأمريكي واليورو والجنيه الإسترليني بأسعار تنافسية وخدمة موثوقة. </p>
+                </div>
+                <div class="service1">
+                    <img src="images/227.jpg" alt="" id="img-serv">
+                    <p id="para-service">خدمة التحويلات المالية المحلية والدولية بسرعة وأمان عالي, نسعى لتسهيل معاملاتك المالية بأسعار تنافسية ودقة في التنفيذ .</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appliction -->
+        <h1 id="app-header">تطبيقنا</h1>
+        <div class="our-app">
+            <div class="description">
+                <div></div>
+                <div></div>
+                <div></div>
+                <p id="para-app">يقدّم تطبيق مدى موبايل تجربة متكاملة لبيع وشراء العملات وإجراء التحويلات المالية الداخلية والخارجية بكل سرعة وموثوقية ,
+                من خلال التطبيق يمكنك:
+                <ul id="para-app" style="margin-right: 26px;">
+                    <li>إدارة حسابك في أي وقت ومن أي مكان.</li>
+                    <li>إرسال واستقبال الحوالات المالية محليًا ودوليًا.</li>
+                    <li>تحويل الأموال بين الحسابات بسهولة تامة.</li>
+                    <li>الاطلاع على سجل عملياتك وتفاصيل معاملاتك المالية بأمان تام.</li>
+                    <li>بيع وشراء العملات.</li>
+                    <li>خدمات شحن الرصيد والباقات لجميع الشركات اليمنية.</li>
+
+                </ul>
+
+                </p>
+                <hr>
+                <h4>تنزيل التطبيق</h4>
+                <button class="btn-donwload"><a href="#">اندرويد</a></button>
+                <!-- <button class="btn-donwload"><a href="#">أيفون</a></button> -->
+            </div>
+            <div class="video-intro">
+                <img src="images/تصميم بدون عنوان.png" alt="phone">
+            </div>
+        </div>
+        <!-- footer -->
+
+        <div class="footer" id="call-us">
+            <h3 id="app-header">مدى للـصـرافة</h3>
+            <div class="footer-content">
+                <div class="part">
+                    <div class="parts">
+                        <i style="color: white;" class="em bi bi-telephone-fill"></i>
+                        <p id="contact-us design"><a href="tel:967776882018">776882018</a></p>
+                    </div>
+                    <div class="parts">
+                        <i style="color: white;" class="em bi bi-whatsapp"></i>
+                        <p id="contact-us design"><a href="https://wa.me/967776882018">776882018</a></p>
+                    </div>
+                </div>
+                <div class="part-img">
+                    <img src="images/logo-only.png" alt="" id="logo-footer">
+                </div>
+                <div class="part">
+                    <div class="parts">
+                        <i style="color: white;" class="em bi bi-envelope-fill"></i>
+                        <p id="email design"><a href="#">Our Email</a></p>
+                    </div>
+                    <div class="parts" style="margin-right: 0px;">
+                        <i style="color: white;" class="em bi bi-geo-alt-fill"></i>
+                        <p  id="map-loc "><a href="#">عدن دار سعد - شارع الفنادق - قبل جولة الكراع</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="icons-footer">
+                <li class="social-item"><a href="#" class="social-link"><ion-icon style="color: white;" name="logo-facebook"></ion-icon></a></li>
+                <li class="social-item"><a href="https://wa.me/967776882018" class="social-link"><ion-icon  name="logo-whatsapp" style="color: white;"></ion-icon></a></li>
+                <li class="social-item"><a href="#" class="social-link"><ion-icon style="color: white;" name="logo-instagram"></ion-icon></a></li>
+                <li class="social-item"><a href="#" class="social-link"><i style="color: white;" class="em bi bi-twitter"></i></a></li>
+                <br>
+            </div>
+            <p style="text-align: center; color: white;">&copy; 2025 مدى للصرافة , جميع الحقوق محفوظة | <a href="https://wa.me/967780595696" style="color: white; text-decoration: none;">تطوير : صالح العماري </a>   .</p>
+
+        </div>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
